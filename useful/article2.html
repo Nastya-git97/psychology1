@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Стаття — Дереалізація</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e8f5e9;
+            color: #1b5e20;
+        }
+
+        .article-container {
+            background-color: #f1fdf3;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        h1, h2 {
+            color: #2e7d32;
+        }
+    </style>
+</head>
+<body>
+
+<div id="navbar-placeholder"></div>
+
+<main class="container py-5">
+    <div class="article-container">
+        <h1 class="mb-4 fw-bold">Що таке дереалізація: симптоми та причини. Як з нею боротись?</h1>
+
+        <p><strong>Дереалізація</strong> є симптоматичним захворюванням і часто супроводжується з деперсоналізацією (в МКХ–10 позначається як <code>F48.1</code>).</p>
+
+        <p>Одним із головних симптомів є болючі зміни сприйняття світу. У людини виникає відчуття, що «все змінилось», «будинки виглядають як намальовані», «я — герой Матриці».</p>
+
+        <p>Також може зникати емоційне забарвлення: людина ніби пам’ятає, що любить дітей чи партнера, але не відчуває цього. Зникає смак, тепло, живість.</p>
+
+        <p>Іноді дереалізація виникає після кількох безсонних ночей або як побічний ефект ліків. Тоді достатньо просто відновити режим та відпочити.</p>
+
+        <p><strong>Причини дереалізації:</strong></p>
+        <ul>
+            <li>сильний або хронічний стрес</li>
+            <li>тривожні розлади</li>
+            <li>ПТСР (посттравматичний стресовий розлад)</li>
+            <li>депресія</li>
+            <li>біполярний розлад</li>
+            <li>шизофренія</li>
+        </ul>
+
+        <p>Дереалізація часто лякає. Важливо не ігнорувати цей стан і вчасно звернутися до психотерапевта. При лікуванні основної проблеми симптоми зникають. У сучасних умовах з цим може зіткнутись кожен третій українець.</p>
+
+        <p><strong>Що робити?</strong> Якщо дереалізація триває понад два тижні і не проходить після відпочинку — звернись до фахівця. Ефективними є <strong>когнітивно-поведінкова терапія (КПТ)</strong> та <strong>схема-терапія</strong>.</p>
+
+        <p><strong>Головна порада:</strong> не бійся цього стану. Прийми його, фіксуй зміни, описуй свій стан. Це допоможе повернути відчуття контролю та реальності.</p>
+
+        <p class="mt-4"><strong>З турботою,</strong><br>Ольга Киян</p>
+    </div>
+
+    <div class="text-end mt-4">
+        <a href="../useful.html" class="btn btn-success">До інших статей</a>
+    </div>
+</main>
+
+<footer class="text-center py-3">
+    <small>&copy; 2025 ПсихоPro — всі права захищені</small>
+</footer>
+
+<script>
+    fetch('../navbar.html')
+        .then(res => res.text())
+        .then(html => document.getElementById('navbar-placeholder').innerHTML = html);
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
